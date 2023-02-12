@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./output.css">
-  
-  <title>Frontend Mentor | QR code component</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
 
-  <div class="bg-black">
-  Improve your front-end skills by building projects
+    <!-- Outfit Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  </div>
-  
-  <div>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="www.linchutchinson.com">Lincoln Hutchinson</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | QR code component</title>
+  </head>
+  <body class="bg-lightgray flex flex-col min-h-screen">
+    <div class="grow flex flex-col justify-center">
+      <div
+        class="bg-white m-4 rounded-xl text-center w-80 p-4 mx-auto shadow-lg"
+      >
+        <img src="./images/image-qr-code.png" class="rounded-xl mx-auto" />
+        <div class="px-4">
+          <h1 class="font-bold mb-2 mt-4 text-[20px]">
+            Improve your front-end skills by building projects
+          </h1>
+
+          <p class="text-grayblue mb-4">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center text-grayblue">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="font-bold hover:underline"
+      >
+        Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linchutchinson.com"
+        class="font-bold hover:underline"
+      >
+        Lincoln Hutchinson</a
+      >.
+    </div>
+  </body>
 </html>
